@@ -1,0 +1,79 @@
+body{
+	/* background-color: rgba(0, 0, 200, 0.3); */
+}
+#container{
+	width: 70%;
+	height: 1200px;
+	margin: auto;
+	border-radius: 0px 5px 10px 15px;
+	background: gray;
+}
+header{
+	background: gray;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	float: left;
+	background: blue;
+}
+.slogan{
+	width: 80s%;
+	height: 100px;
+	float: right;
+	background: green;
+	text-align: center;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	float: right;
+	text-align: center;
+}
+nav ul{
+	margin-top: 15px;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	background:#656ae0;
+	border-radius: 0px 1em 0px 1em;
+	padding: 6px;
+	color: white;
+}
+nav ul li a:hover{
+	border-radius: 1em  0px 1em 0px;
+	border: 1px solid #656ae0;
+	color: rgba(0, 0, 200, 0.5);
+	background: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+	body{
+		background: red;
+	}
+}
+
+/* Tablet*/
+@media only screen and (min-width: 426px) {
+	body{
+		background: green;
+	}
+}
+
+/* PC*/
+@media only screen and (min-width: 700px) {
+	body{
+		background: blue;
+	}
+}
+
+/* PC HD */
+@media only screen and (min-width: 1024px) {
+	body{
+		background: gray;
+	}
+}
