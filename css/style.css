@@ -4,7 +4,6 @@
     padding: 0;
 }
 body{
-	/* background: #F0E599; */
 }
 header{
 	width: 100%;
@@ -13,16 +12,16 @@ header{
 	flex-flow: row wrap;
 }
 .logo{	
-	background: url("/img/margarita.jpg");
+	/* background: url("/img/margarita.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover; */
 	width: 100px;
 	height: 100px;
-	/* float: left; */
 	border-radius: 1em;
 	margin: 5px;
-	/* background: #5FAEED; */
+	background: #5FAEED;
+	text-align: center;
 }
 .slogan{
 	width: 67%;
