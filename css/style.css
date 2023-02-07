@@ -12,6 +12,7 @@ header{
 	flex-flow: row wrap;
 	position: fixed;
 	top: 0;
+
 }
 .logo{	
 	/* background: url("/img/margarita.jpg");
@@ -26,13 +27,15 @@ header{
 	text-align: center;
 }
 .slogan{
-	width: 67%;
+	/* width: 67%; */
+	flex-grow: 4;
 	height: 100px;
 	/* float: right; */
 	background: #5FAEED;
 	text-align: center;
 	border-radius: 1em;
 	margin: 5px;
+
 }
 .slogan h1{
 	color: white;
@@ -80,7 +83,7 @@ section{
 }
 article{
 	background: #d9ecfc;
-	height: 400px;
+	height: 450px;
 	text-align: center;
 	border-radius: 1em;
 	margin: 1em;
@@ -175,6 +178,18 @@ input[type="text"], input[type="email"], textarea{
 	body{
 		background: blue;
 	}
+	section{
+		display: flex;
+		/* flex-flow: row wrap; */
+	}
+	 /* article{
+		height: 1000;
+	}  */
+	aside{
+		height: 118px;
+	}
+	
+	
 } 
 
 /* PC HD */
