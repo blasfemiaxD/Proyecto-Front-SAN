@@ -113,14 +113,23 @@ footer a{
 }
 
 
-
-
-
-
-
-
-
-
+/** Contacto**/
+input, textarea{
+    width: 300px;
+}
+input{
+    width: 160px;
+}
+textarea{
+	resize: none;
+}
+input[type="text"], input[type="email"], textarea{
+	background: white;
+	border: thin solid skyblue;
+	border-radius: 1em;
+	font-size: 1em;
+	padding: .25em;
+}
 
 
 /* Movile m */
