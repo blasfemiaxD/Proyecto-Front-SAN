@@ -5,13 +5,17 @@
 }
 body{
 }
+.container{
+	display: flex;
+	flex-flow: column wrap;
+}
 header{
 	width: 100%;
 	height: 160px;
 	display: flex;
 	flex-flow: row wrap;
-	position: fixed;
-	top: 0;
+	/*position: fixed;
+	top: 0;*/
 
 }
 .logo{	
@@ -27,8 +31,8 @@ header{
 	text-align: center;
 }
 .slogan{
-	/* width: 67%; */
-	flex-grow: 4;
+	width: 67%;
+	flex-grow: 1;
 	height: 100px;
 	/* float: right; */
 	background: #5FAEED;
@@ -71,19 +75,13 @@ nav ul li a:hover{
 }
 section{
 	width: 100%;
-	/* height: 1000px; */
+	/* height: 1000px;
 	padding-top: 9em;
-	/* background: burlywood; */
-}
-.sectionIndex{
-	/* width: 100%; */
-	height: 1000px;
-	/* padding-top: 9em; */
 	/* background: burlywood; */
 }
 article{
 	background: #d9ecfc;
-	height: 450px;
+	height: 350px;
 	text-align: center;
 	border-radius: 1em;
 	margin: 1em;
@@ -97,6 +95,18 @@ aside{
 	padding: 1em;
 	background: #d9ecfc;
 }
+
+/*Index*/
+.sectionIndex{
+	/* width: 100%; */
+	/* height: 1000px; */
+	/* padding-top: 9em; */
+	/* background: burlywood; */
+}
+/*Fin Index*/
+
+
+
 /*Configuración del Footer*/
 footer{
 	/* background: bisque; */
@@ -171,6 +181,14 @@ input[type="text"], input[type="email"], textarea{
 	body{
 		background: green;
 	}
+	section{
+		display: flex;
+		align-items: stretch;
+		/* height: 300px; */
+	}
+	aside{
+		height: 130px;
+	}
 }
 
 /* PC*/
@@ -178,16 +196,12 @@ input[type="text"], input[type="email"], textarea{
 	body{
 		background: blue;
 	}
-	section{
+	/* section{
 		display: flex;
-		/* flex-flow: row wrap; */
 	}
-	 /* article{
-		height: 1000;
-	}  */
 	aside{
 		height: 118px;
-	}
+	} */
 	
 	
 } 
